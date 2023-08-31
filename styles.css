@@ -413,14 +413,12 @@ margin: .6rem 0;
   .home-img img{
     width: 70vw;
     margin-top: 4rem;
-
   }
   .about{
     flex-direction: column-reverse;
   }
   .about img{
     width: 50vw;
-    height: 50vh;
     margin-top: 4rem;
   }
   .services h2{
@@ -450,7 +448,7 @@ margin: .6rem 0;
   }
 @media(max-width: 450px){
   html{
-    font-size: 60%;
+    font-size: 70%;
    }
 
    .contact form .input-box input {
@@ -458,7 +456,7 @@ margin: .6rem 0;
    }
    .services-container{
     display: block;
-    font-size: 100%;
+    font-size: 600%;
     }
 
     .services-box{
@@ -474,10 +472,11 @@ margin: .6rem 0;
     .footer{
       flex-direction: column-reverse;
     }
-    .about img{
-      width: 30vw;
-      height: 30vh;
-      margin-top: 2rem;
+    .home-img img{
+      width: 50vw;
+      
+      height: 50vh;
+      margin-top: 4rem;
     }
     .footer p{
       text-align: center;
