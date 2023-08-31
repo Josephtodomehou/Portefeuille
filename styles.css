@@ -70,7 +70,7 @@ section{
 .home-img img{
   width: 30vw;
   margin-right: 3px;
-  height: 400px;
+  height: 50vh;
   border-radius: 50%;
   animation: floatImage 4s ease-in-out infinite;
 }
@@ -194,8 +194,9 @@ span{
 .services-container .services-box {
   flex: 1 1 3rem ;
   background: var(--second-bg-color);
-  padding: 3rem 2rem 3rem;
+  padding: 2rem 2rem 2rem;
   border-radius: 2rem;
+  height: 470px;
   text-align: center;
   border: .2rem solid var(--bg-color);
   transition: .5s ease;
@@ -313,6 +314,7 @@ margin: .6rem 0;
 .contact form .btn{
   margin-top: 2rem;
   cursor: pointer;
+  width: 40%;
 }
 .footer{
   display: flex;
@@ -343,13 +345,16 @@ margin: .6rem 0;
 /* responsivite */
 @media(max-width: 1200px){
   html{
-    font-size: 55%;
+    font-size: 80%;
   }
 }
 
 @media(max-width: 991px){
   .header{
-    padding: 2rem 3%;
+    padding: 2rem 10%;
+  }
+  .home{
+   margin-top: 20%;
   }
   section{
     padding: 2rem 3% 2rem;
@@ -379,7 +384,7 @@ margin: .6rem 0;
     top: 100%;
     width: 100%;
     left: 0;
-    padding: 1re 3%;
+    padding: 1rem 3%;
     background: var(--bg-color);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     box-shadow: 0.4rem 1rem rgba(0, 0, 0, .2);
@@ -428,7 +433,11 @@ margin: .6rem 0;
   }
 
 }
-
+@media(max-width: 740px){
+  .services-box p{
+    font-size: 90%;
+  }
+  }
 
 @media(max-width: 617px){
   .portfolio-container{
@@ -440,12 +449,22 @@ margin: .6rem 0;
   }
 @media(max-width: 450px){
   html{
-    font-size: 50%;
+    font-size: 60%;
    }
+
    .contact form .input-box input {
          width: 100%;
    }
+   .services-container{
+    display: block;
+    font-size: 100%;
+    }
+
+    .services-box{
+      height: 150px;
+    }
   }
+  
 
   @media(max-width: 365px){
     .home-img{
@@ -458,6 +477,8 @@ margin: .6rem 0;
       text-align: center;
       margin-top: 2rem;
     }
+    
+   
     }
   
 
