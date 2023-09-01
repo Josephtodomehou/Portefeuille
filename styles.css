@@ -342,7 +342,7 @@ margin: .6rem 0;
   color: var(--second-bg-color);
 }
 
-/* responsivite
+/* responsivite */
 @media(max-width: 1200px){
   html{
     font-size: 80%;
@@ -454,14 +454,14 @@ margin: .6rem 0;
    .contact form .input-box input {
          width: 100%;
    }
-   .services-container{
+   /* .services-container{
     display: block;
     font-size: 600%;
     }
 
     .services-box{
       height: 150px;
-    }
+    } */
   }
   
 
@@ -484,93 +484,32 @@ margin: .6rem 0;
     }
     
    
-    } */
-    /* Styles généraux */
-
+    }
 
 /* Styles pour les écrans larges */
 @media screen and (min-width: 768px) {
-  .home {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
-      padding: 100px 0;
-  }
-
-  .home-content {
-      width: 50%;
-      text-align: left;
-  }
-
-  .home-img {
-      width: 50%;
-  }
-
-  .about {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding: 100px 0;
-  }
-
-  .about-img {
-      width: 40%;
-      margin-right: 30px;
-  }
-
-  .about-content {
-      width: 60%;
-      text-align: left;
-  }
-
   .services-container {
       display: flex;
       justify-content: space-between;
       padding: 100px 0;
   }
 
-  .portfolio-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
-      padding: 100px 0;
+  .services-box {
+      flex: 0 0 calc(33.33% - 20px);
   }
 }
 
 /* Styles pour les écrans plus petits */
 @media screen and (max-width: 767px) {
-  .home-content,
-  .home-img,
-  .about-img,
-  .about-content,
-  .services-container,
-  .portfolio-container {
-      width: 100%;
-  }
-
-  .home {
-      flex-direction: column;
-      padding: 50px 0;
-  }
-
-  .about {
-      flex-direction: column;
-      padding: 50px 0;
-  }
-
   .services-container {
       flex-direction: column;
+      align-items: center;
       padding: 50px 0;
   }
 
-  .portfolio-container {
-      grid-template-columns: 1fr;
-      gap: 20px;
-      padding: 50px 0;
-  }
-
-  .contact form {
+  .services-box {
       width: 100%;
+      margin-bottom: 30px;
   }
 }
 
