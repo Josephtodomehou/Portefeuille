@@ -208,7 +208,7 @@ span{
   background: var(--second-bg-color);
   padding: 2rem 2rem ;
   border-radius: 2rem;
-  height: 430px;
+  height: 460px;
   text-align: center;
   border: .2rem solid var(--bg-color);
   transition: .5s ease;
