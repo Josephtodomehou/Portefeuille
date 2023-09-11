@@ -359,7 +359,7 @@ margin: .6rem 0;
 /* responsivite */
 @media(max-width: 1200px){
   html{
-    font-size: 80%;
+    font-size: 79%;
   }
   .services-container .services-box{
     height: 50vh;
