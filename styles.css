@@ -372,7 +372,7 @@ margin: .6rem 0;
    margin-top: 9%;
   }
    section{
-    padding: 2rem 3% 2rem;
+    padding: 2rem 3% 2rem 3%;
   }
   .services-container .services-box{
     height: 60vh;
@@ -466,7 +466,6 @@ margin: .6rem 0;
   }
   .portfolio-container {
     grid-template-columns: 1fr;
-    font-size: 80%;
    }
    .services-container {
     flex-direction: column;
@@ -490,10 +489,11 @@ margin: .6rem 0;
 
   @media(max-width: 450px){
     
-  .home{
-    padding: 4rem 4rem 4rem 4rem;
-    }
-    .home-img{
+  
+  .home .home-content h1,.home .home-content h3{
+    font-size: 30px;
+  }
+  .home .home-img{
       width: 90vw ;
      }
     .footer{
@@ -503,6 +503,9 @@ margin: .6rem 0;
       width: 50vw;
       height: 50vh;
       margin-top: 4rem;
+    }
+    .contact{
+      width: 80vw;
     }
     .footer p{
       text-align: center;
